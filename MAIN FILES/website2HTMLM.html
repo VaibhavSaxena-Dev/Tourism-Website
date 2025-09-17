@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover INDIA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #dd7610;
+            color: white;
+            font-family: cursive;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff860e;
+        }
+
+        nav a {
+            color:white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: orangered;
+            color:darkblue;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px;
+            background: url('mainpagepic/frontpage.png') no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+            color:white;
+            min-height: 200px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px; 
+    background-color: rgb(16, 189, 16);
+}
+
+.feature {
+    flex: 0 0 calc(46% - 10px);
+    height: 150px;
+    margin: 0;
+    padding: 0; 
+    background-color: white; 
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    color: whitesmoke;
+    overflow: hidden;
+    position: relative; 
+}
+.feature:hover {
+            color: rgb(255, 199, 15);
+            transform: scale(1.1);
+        }
+
+
+.feature h3 {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    margin: 0;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+}
+
+
+.feature:nth-child(1) {
+    background-image: url('mainpagepic/sikkimFP.png');
+}
+
+.feature:nth-child(2) {
+    background-image:
+    url('mainpagepic/Rajasthan.png'),
+    url('mainpagepic/Rajasthan.png');
+    background-size: 
+    cover; 
+    background-position: center; 
+    background-repeat: 
+    no-repeat;
+}
+
+.feature:nth-child(3) {
+    background-image: url('mainpagepic/kerala.png'),
+    url('mainpagepic/kerala.png');
+    background-size: 
+    cover; 
+    background-position: center; 
+    background-repeat: 
+    no-repeat;
+}
+
+.feature:nth-child(4) {
+    background-image: url('mainpagepic/bihar.jpg'),
+    url('mainpagepic/bihar.jpg');
+    background-size: 
+    cover; 
+    background-position: center; 
+    background-repeat: 
+    no-repeat;
+}
+
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color:white;
+        }
+
+        @media (max-width: 768px) {
+            .feature {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Discover INDIA</h1>
+        <p>The heart of unity in diversity</p>
+    </header>
+
+    <nav>
+        <a href="website2HTMLM.html">Home</a>
+        <a href="The_Legacy_of_Bharat_(India).html"target="_self">The Legacy of Bharat (India)</a>
+        <a href="RATING.html">Your experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h1>Welcome to Discover INDIA</h1>
+        <p>Your journey to explore India begins here!</p>
+    </section>
+
+    <section class="features">
+        <a href="sikkim/SikkimFP.html" class="feature"> 
+            <h3>SIKKIM</h3>
+        </a>
+        <div class="feature">
+            <h3>RAJASTHAN</h3>   
+        </div>
+        <div class="feature">
+            <h3>KERALA</h3>
+            
+        </div>
+        <div class="feature">
+            <h3>BIHAR</h3>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Discover INDIA. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
